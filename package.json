@@ -1,0 +1,24 @@
+{
+  "name": "koda5-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "eslint .",
+    "fix": "eslint --fix"
+  },
+  "keywords": [],
+  "author": "kodacampmain",
+  "license": "ISC",
+  "description": "Koda 5 Project Node",
+  "type": "module",
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.5.0",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
