@@ -11,9 +11,11 @@ export default defineConfig([
       "@stylistic": stylistic,
     },
     rules: {
-      semi: "error",
+      "@stylistic/semi": "error",
       "no-var": "error",
-      "@stylistic/quotes": ["error", "double"],
+      "@stylistic/quotes": "error",
+      eqeqeq: ["error", "smart"], // ["error", "always"]
+      indent: ["error", "tab"],
     },
   },
   globalIgnores(["eslint.config.js"]),

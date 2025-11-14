@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "lint": "eslint .",
-    "fix": "eslint --fix"
+    "fix": "eslint --fix",
+    "adit": "echo Adit"
   },
   "keywords": [],
   "author": "kodacampmain",
