@@ -39,16 +39,26 @@ async function startTerminal() {
 }
 // startTerminal();
 
-import { sebuahProgram, sebuahProgramModifikasi } from "./src/program.js";
-console.log(sebuahProgram("true"));
-console.log(sebuahProgram(true));
-try {
-	console.log(sebuahProgramModifikasi("true"));
-} catch (error) {
-	console.log(error);
-}
-try {
-	console.log(sebuahProgramModifikasi(true));
-} catch (error) {
-	console.log(error);
-}
+// import { sebuahProgram, sebuahProgramModifikasi } from "./src/program.js";
+// console.log(sebuahProgram("true"));
+// console.log(sebuahProgram(true));
+// try {
+// 	console.log(sebuahProgramModifikasi("true"));
+// } catch (error) {
+// 	console.log(error);
+// }
+// try {
+// 	console.log(sebuahProgramModifikasi(true));
+// } catch (error) {
+// 	console.log(error);
+// }
+
+// import { rl, tebakAngka } from "./src/tebakAngka.js";
+
+// tebakAngka(rl);
+
+import { pokemonUrl, getPokemonNameWithAbilites } from "./src/pokemon.js";
+(async function () {
+	const pokemonWithAbilities = await getPokemonNameWithAbilites(pokemonUrl);
+	console.log(pokemonWithAbilities);
+})();
